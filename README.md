@@ -16,8 +16,9 @@ Professional avalanche forecasts are based on weather data and forecasts, but al
 - Combinations of above data
 
 ### inital prediction: existence of storm slab on test set
-![early prediction](https://github.com/notsambeck/avalanche/blob/master/early%20prediction.png)
-It appears there is hope, but I still prefer the professional forecast at this time...
+![first round prediction](https://github.com/notsambeck/avalanche/blob/master/early_prediction.png)
+_tl means data from Timberline Lodge, m means data from Mt. Hood Meadows base_.
+This model uses entirely independent predictions across different weather variables i.e. if the snow is deep, there is lots of precip, and it's windy it should predict 66% chance of storm slab even if it's 80 degrees out. It appears there is hope, but I still prefer the professional forecast at this time...
 
 ### Problems:
 
